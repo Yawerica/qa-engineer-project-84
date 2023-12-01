@@ -105,11 +105,11 @@
   requirement: |
     - Пользователь должен иметь возможность продолжить выбирать товары в каталоге, находясь на странице корзины
   prerequisites: |
-    Открыта страница корзины
+    Открыта страница корзины https://hexlet-products-store.vercel.app/cart
   test-data: |
     нет данных
   steps:
-    - Проверить адрес страницы каталога. он должен быть - https://hexlet-products-store.vercel.app/
+    - В адресной строке URL меняется на адрес каталога - https://hexlet-products-store.vercel.app/
   expected-result: |
     Пользователь перемещен на страницу каталога
 
