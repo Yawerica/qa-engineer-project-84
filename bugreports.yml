@@ -1,6 +1,6 @@
 ---
 - summary:       #bug  1    |                         
-    Находясь в корзине пользователь не может выбирать товар                #баг по требованиям. скрин - https://github.com/Yawerica/qa-engineer-project-84/blob/main/bug1.png      
+    Находясь в корзине пользователь не может выбирать товар                #баг по требованиям. скрин - https://github.com/Yawerica/qa-engineer-project-84/blob/main/Bugs/bug1.png     
   environment: |
     Google Chrome   119.0.6045.199 (Официальная сборка) (64 бит)
     Windows 10
@@ -53,12 +53,12 @@
     Google Chrome   119.0.6045.199 (Официальная сборка) (64 бит)
     Windows 10
   steps-to-reproduce: |
-    1. Добавиь в корзину товар
+    1. Добавить в корзину товар
     2. Нажать на кнопку Оформить заказ
     3. Нажать на кнопку Закрыть в правом верхнем углу окна
   expected-result: |
     Модальное окно закроется
   actual-result: |
-    Ничего не происходит. окно остается открытым                       #прикладываю скрин - https://github.com/Yawerica/qa-engineer-project-84/blob/main/bug%204.png
+    Ничего не происходит. окно остается открытым                       #прикладываю скрин - https://github.com/Yawerica/qa-engineer-project-84/blob/main/Bugs/bug%204.png
 
    
